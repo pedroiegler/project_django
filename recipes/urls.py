@@ -7,4 +7,5 @@ urlpatterns = [
     path('', home, name="home"),
     path('recipes/<int:id>/', recipe, name="recipe"),
     path('recipes/categories/<int:category_id>/', category, name="category"),
+    path('recipes/search/', lambda request: ..., name="search"),
 ]
